@@ -1,0 +1,234 @@
+/* ......................................NAVBAR..................................... */
+
+.navbar{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row;
+    /* background-color: #1f0b31cc; */
+    background-image: url("images/galaxy.jpg");
+    color: white;
+    height: 80px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+.gif {
+    height: 50px;
+}
+
+.gif:hover {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar, .nav-list, .nav-left {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-left: 30px;
+}
+
+.nav-left, .nav-right  {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-right {
+    margin-left: 20px
+}
+
+.img-avatar {
+    width: 70px;
+    height: 70px;
+}
+
+.nav-name {
+    margin-right: 20px;
+
+}
+
+.avatar {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #E6E7ED;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    background-image: url("images/coon.jpg");
+    background-size: 60px;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    margin-right: 10px;
+}
+
+
+/* ......................................MAIN..................................... */
+
+body {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("images/galaxy_1.jpg")
+}
+
+.main-titlte {
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 6px 3px 10px rgba(48, 53, 54, 0.336); 
+    background: rgba(230, 231, 237, 0.884);
+}
+
+.article {
+    margin: 0px 20px 20px 20px;
+    text-align: justify;
+
+}
+
+.image-main {
+    margin: 20px;
+}
+
+.block-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px
+}
+
+.racoon {
+    width: 470px;
+    box-shadow: 2px 2px 5px rgba(48, 53, 54, 0.336);    
+}
+
+.article-link {
+    text-align: right;
+    text-decoration: none;
+    color: rgba(35, 35, 124, 0.767);
+}
+
+.article-link:hover {
+    text-align: right;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* .....................................FOOTER..................................... */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+
+    box-shadow: inset 0 0 7em #4143468e;
+
+    /* background-color: #f1f2f6; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* background-image: url("images/galaxy.jpg"); */
+    opacity: 0.4;
+
+    display: flex;
+    align-content: center;
+}
+
+.copyright {
+    border: solid 2px green;
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: auto;
+    margin-top: 12px;
+}
+
+.c {
+    font-size: 1.5em; 
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;    
+    margin-left: 850px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.facebook {
+    width: 40px;
+    margin-top: -4px
+}
+
+.facebook:hover {
+    width: 40px;
+    margin-top: -4px;
+    background-image: url("images/facebook.png");
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.twitter {
+    width: 30px;
+}
+
+.twitter:hover {
+    width: 30px;
+    background-image: url("images/twitter.png");
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.instagram {
+    width: 30px;
+}
+
+.instagram:hover {
+    width: 30px;
+    background-image: url("images/insta.png");
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.youtube {
+    width: 50px;
+    margin-top: -10px;
+}
+
+.youtube:hover {
+    width: 50px;
+    margin-top: -10px;
+    background-image: url("images/yout.png");
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.facebook, .twitter, .instagram, .youtube {
+    margin-right: 20px;
+}
