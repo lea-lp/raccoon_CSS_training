@@ -149,11 +149,8 @@ footer {
 
     box-shadow: inset 0 0 7em #4143468e;
 
-    /* background-color: #f1f2f6; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    /* background-image: url("images/galaxy.jpg"); */
+    display: flex;
+    justify-content: space-between;
     opacity: 0.4;
 
     display: flex;
@@ -161,7 +158,6 @@ footer {
 }
 
 .copyright {
-    border: solid 2px green;
     margin-left: 20px;
     font-size: 0.7em;
     width: auto;
@@ -176,7 +172,6 @@ footer {
     display: flex;
     flex-direction: row;
     margin-top: 10px;    
-    margin-left: 850px;
     width: auto;
     margin-right: 5px;
 }
@@ -231,4 +226,8 @@ footer {
 
 .facebook, .twitter, .instagram, .youtube {
     margin-right: 20px;
+}
+
+.follow {
+    margin-top: 2px
 }
